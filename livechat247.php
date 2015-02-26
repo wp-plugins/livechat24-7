@@ -91,7 +91,7 @@ function livechat247_add_settings_page()
                 <h3 class="hndle"><span><?php _e('livechat24-7 Account ID'); ?></span></h3>
                 <div class="inside" style="padding: 0 10px">
                     <p style="text-align:center">
-                        <a href="https://www.livechat24-7.com/">
+                        <a target="_blank" href="https://www.livechat24-7.com/dashboard/login.html?ref=wp_plugin">
                             <img src="<?php echo ($plugurldir); ?>lc.png" height="39" width="159" alt="<?php _e('livechat24-7 Logo');?>" />
                         </a>
                     </p>
@@ -99,7 +99,7 @@ function livechat247_add_settings_page()
                         <?php settings_fields('livechat247-group'); ?>
                         <p>
                             <label for="Livechat247ID">
-                                <?php printf(__('Enter your %1$slivechat24-7%2$s account ID below to activate the plugin.') , '<strong><a href="https://www.livechat24-7.com/dashboard/login.html?ref=wp_plugin" >', '</a></strong>'); ?>
+                                <?php printf(__('Enter your %1$slivechat24-7%2$s account ID below to activate the plugin.') , '<strong><a target="_blank" href="https://www.livechat24-7.com/dashboard/login.html?ref=wp_plugin" >', '</a></strong>'); ?>
                             </label><br />
                             <input type="text" name="Livechat247ID" value="<?php echo get_option('Livechat247ID'); ?>" style="width:100%" />
                         </p>
@@ -109,7 +109,7 @@ function livechat247_add_settings_page()
                     </form>
                     
                     <small class="nonessential"><?php _e('Entering an incorrect ID will result in an error!');?></small>
-                    <p style="font-size:smaller;color:#999239;background-color:#ffffe0;padding:0.4em 0.6em !important;border:1px solid #e6db55;-moz-border-radius:3px;-khtml-border-radius:3px;-webkit-border-radius:3px;border-radius:3px"><?php printf(__('%1$sRegister for a free livechat24-7 account today!%2$sRegister for a <strong>FREE</strong> livechat24-7 account right now!%3$s') , '<a href="https://www.livechat24-7.com/dashboard/login.html?ref=wp_plugin" title="', '">', '</a>'); ?></p>
+                    <p style="font-size:smaller;color:#999239;background-color:#ffffe0;padding:0.4em 0.6em !important;border:1px solid #e6db55;-moz-border-radius:3px;-khtml-border-radius:3px;-webkit-border-radius:3px;border-radius:3px"><?php printf(__('%1$sRegister for a free livechat24-7 account today!%2$sRegister for a <strong>FREE</strong> livechat24-7 account right now!%3$s') , '<a target="_blank" href="https://www.livechat24-7.com/dashboard/login.html?ref=wp_plugin" title="', '">', '</a>'); ?></p>
                 </div>
             </div>
         </div>

@@ -1,9 +1,9 @@
-=== livechat24-7 ===
+=== Live chat + chatbot ===
 Contributors: botego
 Donate link:
 Tags: automated live chat, free live chat, live agent, live chat, live chat software, mobile live chat, Customer Service, customer service software, Online Customer Service
 Requires at least: 3.0
-Tested up to: 3.5
+Tested up to: 4.1.1
 Stable tag: 1.0
 
 Live chat that learns from you as you engage with your customers. Automatically builds your knowledge base and acts as a robot agent 24/7.
